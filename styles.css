@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgDiv {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    overflow: hidden;
+    border-radius: 30px;
+    background-image: url(https://i.pinimg.com/564x/de/62/96/de629682a1dbad850464addeecec58c6.jpg);
+}
+
+.imgDiv:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://i.pinimg.com/564x/de/62/96/de629682a1dbad850464addeecec58c6.jpg);
+}
+
+.saveButton {
+    position: absolute;
+    background-color: rgb(230 0 34);
+    border-radius: 50px;
+    width: 110px;
+    margin-left: 270px;
+    margin-top: 20px;
+    transform: translateY(-120px);
+    transition: transform 500ms;
+}
+
+.imgDiv:hover .saveButton {
+    transform: translateX(0px);
+}
+
+.saveButton p {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.linkIcon {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 465px;
+    padding-bottom: 5px;
+    transform: translateY(120px);
+    transition: transform 500ms;
+}
+
+.imgDiv:hover .linkIcon {
+    transform: translateX(0px);
+}
+
+.linkIcon i {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.linkIcon p {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+    font-size: 20px;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.downloadIcon {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 240px;
+    margin-top: 465px;
+    padding-bottom: 5px;
+    transform: translateY(120px);
+    transition: transform 500ms;
+}
+
+.imgDiv:hover .downloadIcon {
+    transform: translateX(0px);
+}
+
+.downloadIcon i {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.dotsIcon {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 320px;
+    margin-top: 465px;
+    padding-bottom: 5px;
+    transform: translateY(120px);
+    transition: transform 500ms;
+}
+
+.imgDiv:hover .dotsIcon {
+    transform: translateX(0px);
+}
+
+.dotsIcon i {
+    margin-left: 15px;
+    margin-top: 15px;
+}
